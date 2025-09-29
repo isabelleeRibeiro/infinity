@@ -320,14 +320,14 @@ header nav ul li:hover::after {
 @media (max-width: 768px) {
 
     .logo{
-     font-size: 1.15rem;
+     font-size: 0.5rem;
     }
 
     .sobre{
-        font-size: 0.92rem;
+        font-size: 0.7rem;
     }
     header nav ul span{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .item {
