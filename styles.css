@@ -343,7 +343,11 @@ header nav ul li:hover::after {
         width: 100%;
         max-width: 350px;
         max-height: 220px;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
+    }
+
+    .product-tag{
+    margin-top: 0px;
     }
 
     .product-img img {
