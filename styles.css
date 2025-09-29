@@ -334,7 +334,7 @@ header nav ul li:hover::after {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 20px;
+        padding: 0px;
         width: 100%;
         box-sizing: border-box;
     }
@@ -378,7 +378,7 @@ header nav ul li:hover::after {
     /* botão centralizado SEM sobrepor os indicadores */
     .btn {
         display: inline-block;
-        margin: 20px auto 40px auto; /* margem inferior pra não colar nos indicadores */
+        margin: 0px auto 40px auto; /* margem inferior pra não colar nos indicadores */
         padding: 12px 18px;
         font-size: 1rem;
     }
