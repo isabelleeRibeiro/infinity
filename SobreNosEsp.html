@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="img/infinity.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>I.I.I Infinity</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">I.I.I Infinity</div>
+        <nav>
+            <ul>
+                <li class="sobre"><a href="espanhol.html">Inicio</a></li>
+                <li class="dropdown">
+                    <span>Español ▾</span>
+                    <ul class="dropdown-menu">
+                        <li><a href="SobreNos.html">Portugués-Br</a></li>
+                        <li><a href="SobreNosEng.html">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="img/isabelle.png" alt="Directora Isabelle Ribeiro">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Directora de la empresa</p>
+                    <p class="product-name">Isabelle Ribeiro</p>
+                    <p class="description">
+                        Isabelle Ribeiro, como directora visionaria de I.I.I Infinity, representa el compromiso constante 
+                        con la innovación y la excelencia. Su liderazgo se refleja en la creación de este espacio digital, 
+                        concebido para transmitir no solo la solidez del proyecto, sino también la seriedad y la dedicación 
+                        que la empresa deposita en cada detalle. Su empeño en garantizar una comunicación clara, accesible 
+                        y sofisticada demuestra la convicción de que la tecnología debe estar al servicio de la inclusión 
+                        y del progreso humano.
+                    </p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="img/iasmim.png" alt="Directora Iasmim Brandão">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Directora de la empresa</p>
+                    <p class="product-name">Iasmim Brandão</p>
+                    <p class="description">
+                        Iasmim Brandão, directora de I.I.I Infinity, encarna la búsqueda incansable de perfección y el 
+                        compromiso con la accesibilidad universal. Su participación activa en el desarrollo del sitio web 
+                        refleja la importancia de unir diseño funcional, estética refinada y una visión empresarial centrada 
+                        en la inclusión. Con determinación y sensibilidad, Iasmim asegura que cada iniciativa de la compañía 
+                        exprese no solo innovación tecnológica, sino también respeto, empatía y responsabilidad social hacia 
+                        quienes serán los beneficiarios directos de nuestras soluciones.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </button>
+        </div>
+        <div class="indicators_sobre">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="scripts.js"></script>
+
+</html>
